@@ -35,3 +35,5 @@ To try this app yourself, simply download the open source streamlit python packa
 `streamlit run app.py`
 
 Streamlit will automatically open the UI for you at `http://localhost:8501/`. 
+
+If you would like to view this app deployed click the link here: https://marisas-activeviam-takehome.streamlit.app/
