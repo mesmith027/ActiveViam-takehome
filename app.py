@@ -159,7 +159,11 @@ Let's visualize the profit and loss for each company on a bar graph, giving us a
 with st.echo(): 
 
     # make the plot, use the color parameter to map the colour of the bar based on gain or loss
-    fig = px.bar(pnl, color=pnl_positive)
+    fig = px.bar(pnl, color=pnl_positive,
+                color_discrete_map={
+                False: "red",
+                True: "green",
+                })
 
     # add titles and information
     fig.update_layout(
@@ -221,7 +225,11 @@ Like before, we can visualize our stocks' actual profit and loss.
 with st.echo(): 
 
     # make the plot, use the color parameter to map the colour of the bar based on gain or loss
-    fig = px.bar(your_pnl, color=pnl_positive)
+    fig = px.bar(your_pnl, color=pnl_positive,
+                color_discrete_map={
+                False: "red",
+                True: "green",
+                })
 
     # add titles and information
     fig.update_layout(
