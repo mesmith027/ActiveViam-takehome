@@ -1,6 +1,5 @@
 import yfinance as yf 
 import pandas as pd
-#import matplotlib.pyplot as plt
 import plotly.express as px
 import streamlit as st
 import datetime
@@ -18,13 +17,16 @@ This app will show a short example of how to use the yfinance python package to 
 - Amazon, denoted as "AMZN" and 
 - Meta (Facebook), denoted as "META". 
 
-This assumes you have downloaded the Python packages: matplotlib and yfinance. 
+This assumes you have downloaded the Python packages: plotly, yfinance, pandas and Streamlit. 
 
 If you have not installed these packages, open your terminal and run the commands: 
 
-`pip install yfinance`
-
-`pip install plotly`
+```
+pip install yfinance
+pip install plotly
+pip install pandas
+pip install streamlit
+```
 
 """)
 
