@@ -186,9 +186,9 @@ total loss and profit based on how many stocks you own in each company.
 To do this, we will need to take the price per single stock and multiply that by the number of stocks you purchased on our initial purchase date 
 for each company. 
 
-This can be interactive feel free to adjust the list `your_shares` to see the effect it has on the profit and loss of each and your total profit 
-(or loss) over this time period. 
-         """)
+This can be interactive feel free to adjust the number inputs for each stock in the sidebar, to see the effect it has on the profit and loss of each 
+    and your total profit (or loss) over this time period. 
+""")
 
 with st.echo(): 
 
