@@ -16,11 +16,10 @@ You are given 3 working days to return your solution
 
 ## Jupyter notebooks
 
-The good copy of my take home is in the file `Take-Home-Final.ipynb`. 
-The python pagkages you need to run this notebook are: yfinance and matplotlib. 
+The good copy of my take-home is in the file `Take-Home-Final.ipynb`. 
+The Python packages you need to run this notebook are: yfinance and matplotlib. 
 
 If you are interested in some of the random explorations and testing I did to learn about the yfinance package is in `Initia-exploration.ipynb`
-
 
 ## Streamlit app 
 
